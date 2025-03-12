@@ -1,0 +1,57 @@
+/* Light Mode */
+body.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.dark-bg {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.light-bg {
+  background-color: white;
+  color: black;
+}
+
+/* Card Styling */
+.card {
+  border-radius: 10px;
+  background-color: inherit;
+}
+
+/* List Items */
+.list-group-item {
+  background-color: inherit;
+  color: inherit;
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease-in-out;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #555;
+}
+
+/* Dark Mode Styling */
+body.dark-mode {
+  background-color: #121212;
+  color: #f8f9fa;
+}
+
